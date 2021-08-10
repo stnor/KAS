@@ -2663,7 +2663,7 @@ _.extend(Const.prototype, {
 
     codegen: function() {
         if (this.symbol === "pi") {
-            return vars.pi ? vars.pi : Math.PI;
+            return vars.pi ? vars.pi : "Math.PI";
         } else if (this.symbol === "e") {
             return "Math.E";
         }
