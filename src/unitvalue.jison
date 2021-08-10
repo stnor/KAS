@@ -10,7 +10,7 @@
 00b5 - micro
 212b - angstrom
 00b0 - degree
-2103 - degree celcius
+2103 - degree celsius
 2109 - degree fahrenheit
 */
 
@@ -49,7 +49,7 @@ Atom, meaning a single unit without exponent.
 
 Symbols:
   - 00b0 - degree sign
-  - 2103 - degree celcius
+  - 2103 - degree celsius
   - 2109 - degree fahrenheit
   - 212b - angstrom
   - 00b5 - micro
