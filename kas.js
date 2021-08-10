@@ -1,4 +1,4 @@
-/*! KAS | https://github.com/Khan/KAS */
+/*! KAS | https://github.com/stnor/KAS */
 // This is a @generated file
 var _, KAS = {};
 
@@ -4188,7 +4188,7 @@ _.extend(Const.prototype, {
 
     eval: function(vars, options) {
         if (this.symbol === "pi") {
-            return Math.PI;
+            return vars.pi ? vars.pi : Math.PI;
         } else if (this.symbol === "e") {
             return Math.E;
         }
@@ -4196,7 +4196,7 @@ _.extend(Const.prototype, {
 
     codegen: function() {
         if (this.symbol === "pi") {
-            return "Math.PI";
+            return vars.pi ? vars.pi : "Math.PI";
         } else if (this.symbol === "e") {
             return "Math.E";
         }

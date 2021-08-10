@@ -11,7 +11,7 @@ grunt.initConfig({
     pkg: grunt.file.readJSON("package.json"),
     concat: {
         options: {
-            banner: "/*! KAS | https://github.com/Khan/KAS */\n"
+            banner: "/*! KAS | https://github.com/stnor/KAS */\n"
         },
         dist: {
             src: srcFiles,
