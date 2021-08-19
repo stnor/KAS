@@ -3,7 +3,7 @@
 var _, KAS = {};
 
 if (typeof module === "object" && module.exports) {
-    _ = require("underscore");
+    _ = require("underscore/underscore-min");
     module.exports = KAS;
 } else {
     _ = window._;
